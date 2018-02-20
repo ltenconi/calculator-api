@@ -11,4 +11,4 @@ Using Java, implement a simple calculator web service that caches the results of
 
 For the operations of addition, subtraction, and multiplication, the calculator endpoints should support an input of up to three numbers in the same call.
 
-You may use Jersey / JAX-RS to avoid having to parse JSON manually. Each endpoint should support the GET method, and it should return the result in JSON format. If there is more than one call for the same operation on the same numbers, then the result should be returned from the cache rather than being recomputed. 
+Each endpoint should support the GET method, and it should return the result in JSON format. If there is more than one call for the same operation on the same numbers, then the result should be returned from the cache rather than being recomputed. 
