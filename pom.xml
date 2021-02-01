@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.work</groupId>
 	<artifactId>calculator-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>calculator</name>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
