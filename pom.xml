@@ -36,7 +36,7 @@
     		<repository>
       			<id>github</id>
       				<name>GitHub Packages</name>
-      				<url>https://maven.pkg.github.com/govindarajanv/calculatorapi</url>
+      				<url>https://maven.pkg.github.com/govindarajanv/calculator-api</url>
     		</repository>
   	</distributionManagement>
 	<build>
