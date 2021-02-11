@@ -4,10 +4,10 @@ Coding exercise:
 
 Using Java, implement a simple calculator web service that caches the results of its computations, with endpoints in a format similar to the following:
 
-/add/{a}/{b}/{c}
-/subtract/{a}/{b}/{c}
-/multiply/{a}/{b}/{c}
-/divide/{a}/{b}
+- /add/{a}/{b}/{c}
+- /subtract/{a}/{b}/{c}
+- /multiply/{a}/{b}/{c}
+- /divide/{a}/{b}
 
 For the operations of addition, subtraction, and multiplication, the calculator endpoints should support an input of up to three numbers in the same call.
 
