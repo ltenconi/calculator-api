@@ -1,8 +1,8 @@
-# Heading
+# Calculator API
 
 ![logo](images/icon.png)
 
-Description
+## Description
 
 ![Project](images/project.png)
 
