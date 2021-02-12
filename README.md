@@ -20,3 +20,4 @@ Each endpoint should support the GET method, and it should return the result in 
 * heroku container:login
 * heroku container:rm web -a calculator-java-maven-service
 * heroku container:release web -a calculator-java-maven-service
+* heroku logs --tail
