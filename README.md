@@ -1,8 +1,6 @@
 # calculator-api
 
-Coding exercise:
-
-Using Java, implement a simple calculator web service that caches the results of its computations, with endpoints in a format similar to the following:
+This API is a simple calculator web service implemented using Java. It caches the results of its computations, with endpoints in a format similar to the following:
 
 - /add/{a}/{b}/{c}
 - /subtract/{a}/{b}/{c}
