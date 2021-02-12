@@ -13,10 +13,10 @@ Each endpoint should support the GET method, and it should return the result in 
 
 ## Deploying to Heroku
 
-docker login --username=<email> password=$(heroku auth:token) registry.heroku.com
-docker build -t registry.heroku.com/calculator-java-maven-service/web:$VERSION --build-arg value=$VERSION .
-docker build -t registry.heroku.com/calculator-java-maven-service/web:latest --build-arg value=$VERSION .
-docker push registry.heroku.com/calculator-java-maven-service/web:latest
-heroku container:login
-heroku container:rm web -a calculator-java-maven-service
-heroku container:release web -a calculator-java-maven-service
+* docker login --username=<email> password=$(heroku auth:token) registry.heroku.com
+* docker build -t registry.heroku.com/calculator-java-maven-service/web:$VERSION --build-arg value=$VERSION .
+* docker build -t registry.heroku.com/calculator-java-maven-service/web:latest --build-arg value=$VERSION .
+* docker push registry.heroku.com/calculator-java-maven-service/web:latest
+* heroku container:login
+* heroku container:rm web -a calculator-java-maven-service
+* heroku container:release web -a calculator-java-maven-service
