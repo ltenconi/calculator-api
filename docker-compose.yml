@@ -1,0 +1,17 @@
+version: "3.0"
+
+services:
+  calculator-api:
+    container_name: calculator
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        value: 1.0.1-SNAPSHOT
+    ports:
+      - 8080:8080
+    healthcheck:
+      test: "${DOCKER_HEALTHCHECK_TEST:-curl localhost:8080/addition/1/2/3}"
+      interval: 10s
+      timeout: 5s
+      retries: 5

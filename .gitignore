@@ -1,6 +1,7 @@
 # Ignore all hidden directory except for .gitignore and .dockerignore
 .*
 !/.gitignore
+!/.github
 !/.dockerignore
 
 # Eclipse
