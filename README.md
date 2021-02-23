@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/govindarajanv/calculator-api/actions/workflows/java-maven-api-master.yml/badge.svg)](https://github.com/govindarajanv/calculator-api/actions/workflows/java-maven-api-master.yml)
+
 # calculator-api
 
 This API is a simple calculator web service implemented using Java. It caches the results of its computations, with endpoints in a format similar to the following:
