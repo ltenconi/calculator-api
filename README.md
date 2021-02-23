@@ -1,4 +1,5 @@
 [![Java CI with Maven](https://github.com/govindarajanv/calculator-api/actions/workflows/java-maven-api-master.yml/badge.svg)](https://github.com/govindarajanv/calculator-api/actions/workflows/java-maven-api-master.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=govindarajanv_calculator-api&metric=alert_status)](https://sonarcloud.io/dashboard?id=govindarajanv_calculator-api)
 
 # calculator-api
 
