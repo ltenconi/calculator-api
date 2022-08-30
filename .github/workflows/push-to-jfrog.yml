@@ -1,4 +1,14 @@
-publish:
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,7 +25,7 @@ publish:
       - name: Publish to JFrog Artifactory
         run: mvn deploy
         env:
-          registry: <jfrog artifactory url>
+          registry: "https://govindarajan.jfrog.io/ui/admin/repositories/local/maven-xray-poc/"
           username: ${{ secrets.JFROG_USERNAME }}
           password: ${{ secrets.JFROG_PASSWORD }}
           GITHUB_TOKEN: "${{ secrets.REPOSITORY_TOKEN }}"
