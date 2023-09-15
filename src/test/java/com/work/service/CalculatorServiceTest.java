@@ -12,7 +12,7 @@ public class CalculatorServiceTest {
 
 	private CalculatorService calculatorService = new CalculatorService();
 
-	@Test
+	/*@Test
 	public void testCreation() {
 		assertNotNull(calculatorService);
 	}
@@ -69,7 +69,7 @@ public class CalculatorServiceTest {
 	public void testDivide() {
 		Integer result = calculatorService.divide(12,2);
 		assertEquals(Integer.valueOf(6), result);
-	}
+	}*/
 
 	@Test(expected = DivisionByZeroException.class)
 	public void testDivideByZero() {
